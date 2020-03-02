@@ -16,6 +16,9 @@ import BadgesDemo1 from './badges/BadgesDemo1';
 import BadgesDemo2 from './badges/BadgesDemo2';
 import BadgesDemo3 from './badges/BadgesDemo3';
 import BadgesDemo4 from './badges/BadgesDemo4';
+import BadgesDemo5 from './badges/BadgesDEmo5';
+import BreadcrumbsDemo1 from './breadcrumbs/BreadcrumbsDemo1';
+import BreadcrumbsDemo2 from './breadcrumbs/BreadcrumbsDemo2';
 
 const AppRouter = () => {
   return (
@@ -53,6 +56,15 @@ const AppRouter = () => {
             <li>
               <Link to="/badges/demo4">BadgesDemo4</Link>
             </li>
+            <li>
+              <Link to="/badges/demo5">BadgesDemo5</Link>
+            </li>
+            <li>
+              <Link to="/breadcrumbs/demo1">BreadcrumbsDemo1</Link>
+            </li>
+            <li>
+              <Link to="/breadcrumbs/demo2">BreadcrumbsDemo2</Link>
+            </li>
           </ul>
         </nav>
 
@@ -86,6 +98,15 @@ const AppRouter = () => {
           </Route>
           <Route path="/badges/demo4">
             <BadgesDemo4 />
+          </Route>
+          <Route path="/badges/demo5">
+            <BadgesDemo5 />
+          </Route>
+          <Route path="/breadcrumbs/demo1">
+            <BreadcrumbsDemo1 />
+          </Route>
+          <Route path="/breadcrumbs/demo2">
+            <BreadcrumbsDemo2 />
           </Route>
         </Switch>
       </div>
