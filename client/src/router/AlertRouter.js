@@ -25,22 +25,22 @@ const AlertRouter = () => {
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem>
-              <Link to="/alert/demo1">AlertDemo1</Link>
+              <Link to="/alert/demo1">Demo1</Link>
             </DropdownItem>
             <DropdownItem>
-              <Link to="/alert/demo2">AlertDemo2</Link>
+              <Link to="/alert/demo2">Demo2</Link>
             </DropdownItem>
             <DropdownItem>
-              <Link to="/alert/demo3">AlertDemo3</Link>
+              <Link to="/alert/demo3">Demo3</Link>
             </DropdownItem>
             <DropdownItem>
-              <Link to="/alert/demo4">AlertDemo4</Link>
+              <Link to="/alert/demo4">Demo4</Link>
             </DropdownItem>
             <DropdownItem>
-              <Link to="/alert/demo5">AlertDemo5</Link>
+              <Link to="/alert/demo5">Demo5</Link>
             </DropdownItem>
             <DropdownItem>
-              <Link to="/alert/demo6">AlertDemo6</Link>
+              <Link to="/alert/demo6">Demo6</Link>
             </DropdownItem>
           </DropdownMenu>
         </ButtonDropdown>
