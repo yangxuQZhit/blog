@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 import React from 'react';
 import {
   BrowserRouter,
@@ -12,6 +12,10 @@ import AlertDemo3 from './alert/AlertDemo3';
 import AlertDemo4 from './alert/AlertDemo4';
 import AlertDemo5 from './alert/AlertDemo5';
 import AlertDemo6 from './alert/AlertDemo6';
+import BadgesDemo1 from './badges/BadgesDemo1';
+import BadgesDemo2 from './badges/BadgesDemo2';
+import BadgesDemo3 from './badges/BadgesDemo3';
+import BadgesDemo4 from './badges/BadgesDemo4';
 
 const AppRouter = () => {
   return (
@@ -37,6 +41,18 @@ const AppRouter = () => {
             <li>
               <Link to="/alert/demo6">AlertDemo6</Link>
             </li>
+            <li>
+              <Link to="/badges/demo1">BadgesDemo1</Link>
+            </li>
+            <li>
+              <Link to="/badges/demo2">BadgesDemo2</Link>
+            </li>
+            <li>
+              <Link to="/badges/demo3">BadgesDemo3</Link>
+            </li>
+            <li>
+              <Link to="/badges/demo4">BadgesDemo4</Link>
+            </li>
           </ul>
         </nav>
 
@@ -58,6 +74,18 @@ const AppRouter = () => {
           </Route>
           <Route path="/alert/demo6">
             <AlertDemo6 />
+          </Route>
+          <Route path="/badges/demo1">
+            <BadgesDemo1 />
+          </Route>
+          <Route path="/badges/demo2">
+            <BadgesDemo2 />
+          </Route>
+          <Route path="/badges/demo3">
+            <BadgesDemo3 />
+          </Route>
+          <Route path="/badges/demo4">
+            <BadgesDemo4 />
           </Route>
         </Switch>
       </div>
