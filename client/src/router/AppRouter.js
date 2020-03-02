@@ -6,19 +6,20 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import AlertDemo1 from './alert/AlertDemo1';
-import AlertDemo2 from './alert/AlertDemo2';
-import AlertDemo3 from './alert/AlertDemo3';
-import AlertDemo4 from './alert/AlertDemo4';
-import AlertDemo5 from './alert/AlertDemo5';
-import AlertDemo6 from './alert/AlertDemo6';
-import BadgesDemo1 from './badges/BadgesDemo1';
-import BadgesDemo2 from './badges/BadgesDemo2';
-import BadgesDemo3 from './badges/BadgesDemo3';
-import BadgesDemo4 from './badges/BadgesDemo4';
-import BadgesDemo5 from './badges/BadgesDEmo5';
-import BreadcrumbsDemo1 from './breadcrumbs/BreadcrumbsDemo1';
-import BreadcrumbsDemo2 from './breadcrumbs/BreadcrumbsDemo2';
+import AlertDemo1 from '../reactstrap-demo/alert/AlertDemo1';
+import AlertDemo2 from '../reactstrap-demo/alert/AlertDemo2';
+import AlertDemo3 from '../reactstrap-demo/alert/AlertDemo3';
+import AlertDemo4 from '../reactstrap-demo/alert/AlertDemo4';
+import AlertDemo5 from '../reactstrap-demo/alert/AlertDemo5';
+import AlertDemo6 from '../reactstrap-demo/alert/AlertDemo6';
+import BadgesDemo1 from '../reactstrap-demo/badges/BadgesDemo1';
+import BadgesDemo2 from '../reactstrap-demo/badges/BadgesDemo2';
+import BadgesDemo3 from '../reactstrap-demo/badges/BadgesDemo3';
+import BadgesDemo4 from '../reactstrap-demo/badges/BadgesDemo4';
+import BadgesDemo5 from '../reactstrap-demo/badges/BadgesDEmo5';
+import BreadcrumbsDemo1 from '../reactstrap-demo/breadcrumbs/BreadcrumbsDemo1';
+import BreadcrumbsDemo2 from '../reactstrap-demo/breadcrumbs/BreadcrumbsDemo2';
+import ButtonDropdownDemo1 from '../reactstrap-demo/buttondropdown/ButtonDropdownDemo1';
 
 const AppRouter = () => {
   return (
@@ -65,6 +66,9 @@ const AppRouter = () => {
             <li>
               <Link to="/breadcrumbs/demo2">BreadcrumbsDemo2</Link>
             </li>
+            <li>
+              <Link to="/buttondropdown/demo1">ButtonDropdownDemo1</Link>
+            </li>
           </ul>
         </nav>
 
@@ -107,6 +111,9 @@ const AppRouter = () => {
           </Route>
           <Route path="/breadcrumbs/demo2">
             <BreadcrumbsDemo2 />
+          </Route>
+          <Route path="/buttondropdown/demo1">
+            <ButtonDropdownDemo1 />
           </Route>
         </Switch>
       </div>
