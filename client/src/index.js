@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import ButtonRouter from './router/ButtonRouter';
+import AppRouter from './router/AppRouter';
 
-ReactDOM.render(<ButtonRouter />, document.getElementById('root'));
+ReactDOM.render(<AppRouter />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
